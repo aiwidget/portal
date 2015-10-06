@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - _widget_dev@localhost" uuid="4e934543-67ec-410b-9aa7-e95b975c7bd1">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>_widget_dev.*</schema-pattern>
+      <default-schemas>_widget_dev.*</default-schemas>
+    </data-source>
+  </component>
+</project>
+
