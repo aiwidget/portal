@@ -14,7 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
- 
+
+
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
@@ -24,8 +25,39 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
-
 //home
-///Route::get('home', 'HomeController@index');
+Route::get('home', 'HomeController@index');
 
+
+//dashboard
 Route::get('dashboard', 'DashboardController@index');
+
+//manage
+Route::get('manage', 'ManageController@index');
+
+//billing
+Route::get('billing', 'BillingController@index');
+
+// settings
+Route::get('settings', 'SettingsController@index');
+
+//help
+Route::get('help', 'HelpController@index');
+
+
+
+
+
+
+
+
+Route::get('user/{id}', function ($id) {
+    return 'User '.$id;
+});
+
+
+
+
+
+
+
