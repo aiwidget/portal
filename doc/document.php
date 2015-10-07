@@ -1,0 +1,11 @@
+<?php
+
+//Route path
+ /*
+     {{Route('route_help')}}
+     {{Route('route_settings')}}
+     {{Route('route_belling')}}
+     {{Route('route_dashboard')}}
+     {{Route('route_manage')}}
+ */
+
